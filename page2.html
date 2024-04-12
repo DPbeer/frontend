@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ваши устройства</title>
+<link rel="stylesheet" href="src/index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap">
+</head>
+<body class="body">
+<div class="container">
+    <div>
+        <form class="form2">
+            <h1 id="HELLO" class="haer">Здравствуйте <span id = "username"></span></h1>
+            <h2>Ваши устройства:</h2>
+            <p id = "deviceInfo"> </p>
+            <p id = "sensorInfo"> </p>
+        </form>
+    </div>
+  </div>
+  <div>
+    <form class="form3">
+      <p><h2>Подробности</h2></p>
+      <div id = "deviceData">
+        <p id ="sensorData"> 
+        </p>
+      </div>
+      
+    </form>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="auth.js"> </script>
+<script src="device.js"> </script>
+</body>
+</html>
